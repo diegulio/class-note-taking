@@ -1,0 +1,11 @@
+[project]
+name = "class-note-taking"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.12.4",
+    "youtube-transcript-api>=1.2.2",
+]
